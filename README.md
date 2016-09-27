@@ -1,4 +1,5 @@
 # Images
+Create a simple page for displaying a gallery of images. Look at examples such as [deviant art](http://www.deviantart.com/), [imgur](http://imgur.com/), or [cover art factory](http://coverartfactory.com/collections/cover-arts).
 
 ### Purpose
 The purpose of this project is to
