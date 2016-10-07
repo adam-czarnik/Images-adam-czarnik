@@ -1,6 +1,5 @@
 ::-moz-selection {/* Code for Firefox */background: transparent;}
 ::selection {background: transparent;}
-
 h1 {
   text-align: center;
   font-family: sans-serif;
@@ -8,14 +7,12 @@ h1 {
   letter-spacing: 1px;
   font-size: 40px;
 }
-
 p, table {
   font-family: sans-serif;
   font-style: italic;
   font-weight: lighter;
   width: 300px;
 }
-
 body img {
   width: 300px;
   height: auto;
@@ -26,18 +23,15 @@ body img {
   -webkit-user-select: none;
   -ms-user-select: none;
 }
-
 table {
   border: 2px solid white;
   border-collapse: collapse;
   text-align: center;
 }
-
 tr, td {
   border: 1px solid #ddd;
   vertical-align: top;
 }
-
 .invisible {
   border-bottom: 2px solid;
   border-bottom-color: transparent;
