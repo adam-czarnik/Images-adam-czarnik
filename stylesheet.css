@@ -1,10 +1,44 @@
+::-moz-selection {/* Code for Firefox */background: transparent;}
+::selection {background: transparent;}
+
 h1 {
-  text-align:center;
+  text-align: center;
   font-family: sans-serif;
-  font-weight: lighter;
+  font-weight: normal;
+  letter-spacing: 1px;
+  font-size: 40px;
 }
 
-.photo img {
+p, table {
+  font-family: sans-serif;
+  font-style: italic;
+  font-weight: lighter;
+  width: 300px;
+}
+
+body img {
   width: 300px;
   height: auto;
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+table {
+  border: 2px solid white;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+tr, td {
+  border: 1px solid #ddd;
+  vertical-align: top;
+}
+
+.invisible {
+  border-bottom: 2px solid;
+  border-bottom-color: transparent;
 }
