@@ -1,5 +1,9 @@
-::-moz-selection {/* Code for Firefox */background: transparent;}
 ::selection {background: transparent;}
+img {
+  width: 300px;
+  height: auto;
+  -webkit-user-drag: none;
+}
 h1 {
   text-align: center;
   font-family: sans-serif;
@@ -12,18 +16,6 @@ p, table {
   font-style: italic;
   font-weight: lighter;
   width: 137px;
-}
-body img {
-  width: 300px;
-  height: auto;
-  user-drag: none;
-  user-select: none;
-  -moz-user-select: none;
-  -webkit-user-drag: none;
-  -webkit-user-select: none;
-  -ms-user-select: none;
-}
-table {
   border: 2px solid white;
   border-collapse: collapse;
   text-align: center;
